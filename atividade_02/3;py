@@ -1,0 +1,4 @@
+def diferenca_simetrica(lista1, lista2):
+    return list(set(lista1).symmetric_difference(set(lista2)))
+
+print(diferenca_simetrica([1, 2, 3, 4], [3, 4, 5, 6]))  # [1, 2, 5, 6]
